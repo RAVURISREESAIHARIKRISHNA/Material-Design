@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="655.0" prefWidth="511.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="textarea.MainController">
+   <children>
+      <JFXTextArea fx:id="in" focusColor="#49ddd8" labelFloat="true" layoutX="33.0" layoutY="110.0" prefHeight="106.0" prefWidth="449.0" promptText="Enter Query" unFocusColor="BLACK">
+         <font>
+            <Font size="18.0" />
+         </font></JFXTextArea>
+      <JFXTextArea fx:id="out" editable="false" focusColor="#49ddd8" layoutX="25.0" layoutY="303.0" prefHeight="254.0" prefWidth="464.0" promptText="Result will Appear Here" unFocusColor="BLACK" />
+      <JFXButton fx:id="exe" buttonType="RAISED" defaultButton="true" layoutX="160.0" layoutY="583.0" onAction="#Authenticate" prefHeight="50.0" prefWidth="170.0" ripplerFill="WHITE" style="-fx-background-color: #111dc5;" text="Execute Query" textAlignment="CENTER" textFill="#fffefe">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>
