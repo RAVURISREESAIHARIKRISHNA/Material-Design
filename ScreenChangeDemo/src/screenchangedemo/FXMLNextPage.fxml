@@ -4,9 +4,9 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" prefHeight="460.0" prefWidth="469.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="screenchangedemo.FXMLNextPageController">
+<AnchorPane id="AnchorPane" prefHeight="460.0" prefWidth="469.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="screenchangedemo.NextPageController">
    <children>
-      <JFXButton buttonType="RAISED" layoutX="105.0" layoutY="171.0" prefHeight="118.0" prefWidth="218.0" ripplerFill="WHITE" style="-fx-background-color: #3700ff;" text="HOME" textFill="WHITE">
+      <JFXButton buttonType="RAISED" layoutX="105.0" layoutY="171.0" onAction="#Hello" prefHeight="118.0" prefWidth="218.0" ripplerFill="WHITE" style="-fx-background-color: #3700ff;" text="HOME" textFill="WHITE">
          <font>
             <Font size="24.0" />
          </font>

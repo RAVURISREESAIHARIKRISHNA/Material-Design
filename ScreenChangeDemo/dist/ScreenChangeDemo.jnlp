@@ -8,7 +8,7 @@
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="ScreenChangeDemo.jar" size="5186" download="eager" />
+    <jar href="ScreenChangeDemo.jar" size="5747" download="eager" />
     <jar href="lib\jfoenix.jar" size="2386350" download="eager" />
   </resources>
   <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="ScreenChangeDemo" >
